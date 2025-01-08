@@ -55,9 +55,7 @@ a{
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
-.contacts-link:focus,
-.hero-btn:hover, 
-.hero-btn:focus {
+.contacts-link:focus {
     color: #404bbf;
 }
 
@@ -83,6 +81,11 @@ a{
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    color: #404bbf;
 }
 
 .benefits-title {
