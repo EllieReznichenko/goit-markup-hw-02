@@ -1,5 +1,5 @@
 body{
-font-family: "Roboto", serif;
+font-family: "Roboto", sans-serif;
 color: #434455;
 background-color: #fff;
 }
@@ -13,7 +13,7 @@ a{
 }
 
 .logo {
-    font-family: "Raleway", serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -28,6 +28,7 @@ a{
 
 .footer-logo .logo-part {
     color: #f4f4fd;
+    font-family: "Raleway", sans-serif
 }
 
 
@@ -55,7 +56,8 @@ a{
 .nav-link:focus,
 .contacts-link:hover,
 .contacts-link:focus,
-.hero-btn:hover {
+.hero-btn:hover, 
+.hero-btn:focus {
     color: #404bbf;
 }
 
@@ -68,11 +70,13 @@ a{
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #fff;
 }
 
 .hero-btn {
     cursor: pointer;
+    font-family: "Roboto", sans-serif;
     background-color: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
@@ -105,7 +109,13 @@ a{
         font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
         color: #2e2f42;
+}
+
+.team-item {
+    background-color: #FFFFFF
 }
 
 .team-members-title {
@@ -128,6 +138,8 @@ a{
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 
@@ -136,6 +148,8 @@ a{
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
         color: #2e2f42;
 }
 
@@ -155,4 +169,3 @@ a{
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
-
